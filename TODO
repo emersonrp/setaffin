@@ -1,0 +1,9 @@
+
+
+-- Would be nice if it would detect all your CPU's and stick it off on the
+last one.  Dunno if that's necessarily a benefit.
+
+-- Might experiment with bumping up the priority of the spawned process,
+since the other CPU(s) are not going to be impacted by it, so the machine
+theoretically won't grind to a halt.
+

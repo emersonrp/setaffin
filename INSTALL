@@ -1,0 +1,15 @@
+This package contains setaffil.exe, which is everything you need to get going.
+Just copy it wherever you like, and follow the instructions in the README.
+
+Building from source requires a moderately-recent version of the Cygwin
+distribution <http://sources.redhat.com/cygwin/>, or alternatively, it
+_should_ build using MinGW <http://www.mingw.org>.  MinGW support might
+take a little bit of Makefile hacking, but probably not.  The author uses
+cygwin, and calls it good at that.
+
+"make" or "make all" or "make setaffin.exe" will build the little blob of
+source into a little blob of binary.  Then, since you have a new binary,
+see the top paragraph for installation instructions...  ;-)
+
+Oh, and "make clean" does the right thing, too.
+

@@ -1,6 +1,12 @@
 
-# setaffin.exe -- a wrapper to set CPU affinity.
+# setaffin.exe -- a wrapper to set CPU affinity
 
+Update: 2025 is here, and this is little utility is of -extremely- limited
+use any more.  Still, it's here if you need it.  Let me know if you find
+yourself using it for anything.  I've cleaned up the README, updated the
+LICENSE file, and fixed a 25-year-old code typo.  Enjoy!
+
+<hr>
 
 Upon migrating my Windows-land from Win98 to Win2K, a bunch of my games
 stopped working, ones that everyone else on the 'net seemed to have no
@@ -11,7 +17,7 @@ ago.
 
 I discovered a workaround is to launch the game, go into Task Manager,
 select the process, right-click, "Set Affinity..." and turn off one or
-the other of the CPU's.  Quite a pain, and Black&White, for instance,
+the other of the CPU's.  Quite a pain, and [Black & White](https://en.wikipedia.org/wiki/Black_%26_White_%28video_game%29), for instance,
 would invariably hit the crashing spot before I could get through that
 process.
 
@@ -19,7 +25,7 @@ So, I decided to get my fingers dirty.
 
 `setaffin.exe` is a tiny blob of code that sets its CPU affinity to CPU 0,
 then spawns whatever is specified on the command line, which inherits this
-CPU affinity.  So, to launch Deus Ex (a classic example of an SMP-unhappy
+CPU affinity.  So, to launch [Deus Ex](https://en.wikipedia.org/wiki/Deus_Ex_%28video_game%29) (a classic example of an SMP-unhappy
 game):
 
     c:\path\to\setaffin.exe c:\Games\DeusEx\System\DeusEx.exe

@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
 
 	printf ("Setting affinity mask to CPU 0...");
 	if (SetProcessAffinityMask( Process, 1)) {
-		printf(" succees.\n");
+		printf(" success.\n");
 	}
 	else {
 		printf(" FAILED.\n");

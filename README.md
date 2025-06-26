@@ -4,9 +4,24 @@
 Update: 2025 is here, and this is little utility is of -extremely- limited
 use any more.  Still, it's here if you need it.  Let me know if you find
 yourself using it for anything.  I've cleaned up the README, updated the
-LICENSE file, and fixed a 25-year-old code typo.  Enjoy!
+LICENSE file, and fixed a 25-year-old code typo.
+
+Actually compiling this for its intended use-case has become a bit more of
+a chore in modern times, as getting a 32-bit toolchain set up is a hassle.
+I haven't yet tried to see if a 64-bit toolchain will do the right thing at
+all.  I suspect it'd require at least some hacking on the Makefile.
+
+The `setaffin.exe` binary in the repo is one I compiled in 2001 using
+Cygwin / MinGW, and worked for me for many years.  YMMV.  I suspect, though,
+that it'll work great for the intended use case, and might even be able to
+be pressed into service as a Steam Compatibility Tool with some tinkering.
+If you try that, let me know!
+
+Enjoy!
 
 <hr>
+
+## Original README
 
 Upon migrating my Windows-land from Win98 to Win2K, a bunch of my games
 stopped working, ones that everyone else on the 'net seemed to have no
